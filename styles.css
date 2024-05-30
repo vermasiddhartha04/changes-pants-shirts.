@@ -1,0 +1,106 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f0f0;
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    text-align: center;
+}
+
+.clothing {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.figure {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.head {
+    width: 60px;
+    height: 60px;
+    background-color: #f1c40f;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+
+.body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.shirt, .pants {
+    width: 100px;
+    height: 50px;
+    margin: 5px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-weight: bold;
+}
+
+.shirt {
+    background-color: #3498db;
+}
+
+.pants {
+    background-color: #2ecc71;
+}
+
+.arms {
+    display: flex;
+    justify-content: space-between;
+    width: 140px;
+    margin-bottom: 10px;
+}
+
+.arm {
+    width: 20px;
+    height: 50px;
+    background-color: #3498db;
+}
+
+.left-arm {
+    margin-right: 50px;
+}
+
+.right-arm {
+    margin-left: 50px;
+}
+
+.legs {
+    display: flex;
+    justify-content: space-between;
+    width: 100px;
+}
+
+.leg {
+    width: 30px;
+    height: 70px;
+    background-color: #2ecc71;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border: none;
+    background-color: #333;
+    color: white;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: #555;
+}
